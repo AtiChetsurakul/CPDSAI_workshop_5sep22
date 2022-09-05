@@ -26,3 +26,6 @@ grid = GridSearchCV(estimator  = estimator,
 
 #5. run the search
 grid.fit(X_train,y_train) # why training set
+print(grid.best_params_)
+print(grid.best_score_)
+print(grid.best_estimator_)
